@@ -24,3 +24,4 @@ devtools::load_all()
 compile_gps_data("mabo", "latham", "catlog")
 
 ## Make a first map
+map_raw_data("mabo", "latham", "catlog")

@@ -21,7 +21,7 @@ compile_gps_data <- function(specie, site, device) {
   ## Read all data and compile
   total <- NULL
   for (i in 1:length(fichier)) {
-    dat = utils::read.table(base::paste0("data/raw_data/",fichier[i]), 
+    dat = utils::read.table(base::paste0("data/raw_data/", fichier[i]), 
                             header = TRUE, 
                             sep = ",", 
                             skip = 6)
@@ -30,7 +30,7 @@ compile_gps_data <- function(specie, site, device) {
   }
   
   ## File configuration ----
-  filename <- base::paste0(specie,"_", site, "_", device, ".csv")
+  filename <- base::paste0(specie, "_", site, "_", device, ".csv")
   
   ## Destination ---- 
   base::dir.create("output/fulldata")
