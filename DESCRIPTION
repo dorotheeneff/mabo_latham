@@ -1,0 +1,20 @@
+Package: mabo_latham
+Title: Explorative analyses for the Masked Bookie population of Latham (Tanzania)
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package creates a full report of explorative analyses of GPS data
+             for the Masked Bookies of Latham Island. This package is programmed to
+             be used for raw datas uploaded from CatLog and PathTrack devices. It is 
+             made to be reused for other species to have a standardized analyses report.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    utils,
+    base
+Depends: 
+    ggplot2,
+    dplyr
