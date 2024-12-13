@@ -37,3 +37,5 @@ map_raw_data <- function(specie, site, device) {
   ## Return the map path
   return(map_path)
 }
+
+# Testing github connection
