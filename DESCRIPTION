@@ -18,3 +18,5 @@ Imports:
 Depends: 
     ggplot2,
     dplyr
+URL: https://github.com/dorotheeneff/mabo_latham
+BugReports: https://github.com/dorotheeneff/mabo_latham/issues
